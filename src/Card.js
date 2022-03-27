@@ -1,7 +1,7 @@
 import React from "react";
 function Card(props){
     return(
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xxl-3 mb-5">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-5">
                         <div class="card h-100 border-2">
                             <div class="badge bg-dark text-white position-absolute" style={{top: "0.5rem",right: "0.5rem"}}>{props.Product.isbadge ? "Sale":""}</div>
                             <img class="image-fluid card-img-top book" src={props.Product.bookimage} alt="..." />
